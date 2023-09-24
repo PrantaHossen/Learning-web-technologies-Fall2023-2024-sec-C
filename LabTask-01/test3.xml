@@ -3,8 +3,9 @@
         <id>1</id>
         <name>John Doe</name>
         <address>
+           <flat_no></flat_no>
             <house_no>H# 38</house_no>
-            <road_no>R#3</road_no>
+            <road_no>R# 3</road_no>
             <area>Banani</area>
             <division>Dhaka</division>
         </address>
@@ -30,9 +31,11 @@
         <id>1</id>
         <name>Ala Voski</name>
         <address>
+            <flat_no></flat_no>
             <house_no>H# 38</house_no>
-            <road_no>R#3</road_no>
+            <road_no>R# 3</road_no>
             <area>Motijheel</area>
+            <division></division>
         </address>
         <department>Human Resource</department>
         <salary>$30000</salary>
