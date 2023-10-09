@@ -6,13 +6,13 @@
     <title>DashBoard</title>
 </head>
 <body>
-   <form method="" action="" enctype="">
-   <table border="1" cellspacing="0" align="center" cellpadding="5">
+<form method="" action="" enctype="">
+    <table border="1" cellspacing="0" align="center" cellpadding="5">
         <tr>
             <td><img src="img/logo.png" alt="" height="70px"></td>
             <td width="500px" align="right">
                 Login as |
-                <a href="home.html">Logout</a>
+                <a href="login.php">Logout</a>
             </td>
         </tr>
         <tr>
@@ -32,6 +32,6 @@
             <td colspan="2" align="center">Copyright 2017</td>
         </tr>
     </table>
-   </form>
+</form>
 </body>
 </html>

@@ -11,7 +11,7 @@
             <td><img src="img/logo.png" alt="" height="70px"></td>
             <td width="500px" align="right">
                 Login as |
-                <a href="home.html">Logout</a>
+                <a href="login.php">Logout</a>
             </td>
         </tr>
         <tr>

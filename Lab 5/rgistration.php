@@ -6,6 +6,7 @@
     <title>Document</title>
 </head>
 <body>
+<form action="" method="" >
 <table border="1" cellspacing="0" align="center">
         <tr>
             <td><img src="img/logo.png" alt="" height="70px"></td>
@@ -101,5 +102,6 @@
             </fieldset>
         </td>
 </table>
+</form>
 </body>
 </html>

@@ -1,3 +1,10 @@
+<?php
+
+
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -26,7 +33,42 @@
                 </ul>
             </td>
             <td >
-                You are Up to date;
+                <fieldset>
+                    <legend>PROFILE</legend>
+                    <table>
+                        <tr>
+                            <td>Name</td>
+                            <td>></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><hr></td>
+                        </tr>
+                        <tr>
+                            <td>Email</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><hr></td>
+                        </tr>
+                        <tr>
+                            <td>Gender</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><hr></td>
+                        </tr>
+                        <tr>
+                            <td>Date of Birth</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><hr></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><a href="editprofile.php">Edit Profile.</a></td>
+                        </tr>
+                    </table>
+                </fieldset>
             </td>
         </tr>
         <tr>
