@@ -30,19 +30,12 @@
                             <?php
                                 if($user['type'] == 'Admin'){
                                     ?>
-                                        <!-- <tr><td><a href="">Profile</a><hr></td></tr>
-                                        <tr><td><a href="">Change Password</a><hr></td></tr>
-                                        <tr><td><a href="">Log Out</a><hr></td></tr> -->
-
 									<?php	header('location: admin_home.php');?>
 
                                     <?php
                                 }
                                 else if($user['type'] == 'User'){
                                     ?>
-                                    <!--  <tr><td><a href="">Profile</a><hr></td></tr>
-                                        <tr><td><a href="">Change Password</a><hr></td></tr>
-                                        <tr><td><a href="">Log Out</a><hr></td></tr> -->
 										<?php	header('location: user_home.php');?>
                                     <?php
                                 }
@@ -53,24 +46,7 @@
                 </td>
 
                 <td width="20"> </td>
-
-                <td>
-                    <h3>Account Information</h3>
-                    <table>
-                        <tr>
-                            <td><b>Name:</b></td>
-                            <td><?=$user['name']?></td>
-                        </tr>
-                        <tr>
-                            <td><b>ID:</b></td>
-                            <td><?=$user['id']?></td>
-                        </tr>
-                        <tr>
-                            <td><b>Password:</b></td>
-                            <td><?=$user['password']?></td>
-                        </tr>
-                    </table>
-
+                <td width="20"> </td>
                 </td>
             </tr>
         </table>
