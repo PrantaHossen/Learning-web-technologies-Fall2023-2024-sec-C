@@ -33,7 +33,7 @@ function addEmployee($empName, $contactNo, $userName, $password)
     $result = mysqli_query($con, $sql);
 
     if ($result == true) {
-        header("location: ../view/Employmgt.php");
+        header("location: ../view/EmployeeHistory.php");
     } else {
         echo "User can not created";
     }
@@ -53,6 +53,46 @@ function getAllEmployee()
 
     }
     return $employee;
+}
+
+function getSpecificUser($id)
+{
+    $con = getConnection();
+    $sql = "select * from employeeinfo where EmpID = '$id'";
+    $result = mysqli_query($con, $sql);
+    $history = [];
+    while ($row = mysqli_fetch_array($result)) {
+
+        array_push($history, $row);
+    }
+    return $history;
+}
+
+
+function deleteEmployee($EmpID)
+{
+    
+    $con = getConnection();
+    $sql = "DELETE FROM employeeinfo WHERE EmpID ='{$EmpID}';";
+    $result = mysqli_query($con, $sql);
+    $deleteUser = [];
+    if ($result == true){
+        header('location: ../view/EmployeeHistory.php');
+    }
+    return $deleteUser;
+}
+
+
+function updateUser($EmpID,$empName, $contactNo, $userName, $password)
+{
+    $con = getConnection();
+    $sql = " UPDATE employeeinfo set EmployeeName = '{$empName}', ContactNo = '{$contactNo}', UserName ='{$userName}', Password = '{$password}' where EmpID = '$EmpID';";
+    
+    if (mysqli_query($con, $sql)) 
+    {   
+        header('location: ../view/EmployeeHistory.php');
+        return true;
+    }
 }
 
 ?>

@@ -23,12 +23,18 @@
         </tr>
         <tr>
             <td>
-                <a href="">Update Employee</a>
+                <a href="EmployeeHistory.php">Update Employee</a>
             </td>
         </tr>
         <tr>
             <td>
-                <a href="">Delete Employee</a>
+                <a href="DeleteEmployee.php">Delete Employee</a>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">
+                <button ><a href="AdminDashboard.php">Go Back!?</a></button>
+
             </td>
         </tr>
     </table>

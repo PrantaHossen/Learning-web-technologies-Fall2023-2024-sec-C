@@ -17,25 +17,25 @@
             <tr>
                 <td>Employee Name</td>
                 <td>
-                    <input type="text" name="empName" >
+                    <input type="text" name="empName" id="empName" >
                 </td>
             </tr>
             <tr>
                 <td>Contact No</td>
                 <td>
-                    <input type="number" name="contactNo" id="">
+                    <input type="number" name="contactNo" id="contactNo">
                 </td>
             </tr>
             <tr>
                 <td>User Name</td>
                 <td>
-                    <input type="text" name="userName" id="">
+                    <input type="text" name="userName" id="userName">
                 </td>
             </tr>
             <tr>
                 <td>User Pass Word</td>
                 <td>
-                    <input type="text" name="password" id="">
+                    <input type="text" name="password" id="password">
                 </td>
             </tr>
             <tr>

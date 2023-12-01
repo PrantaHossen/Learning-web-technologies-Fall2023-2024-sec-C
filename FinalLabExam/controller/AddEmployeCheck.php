@@ -6,10 +6,10 @@ if (isset($_POST['submit'])) {
     if (isset($_POST['empName']) && isset($_POST['contactNo']) && isset($_POST['userName']) && isset($_POST['password']))
     {
         
-        $percelName = $_POST['empName'];
-        $percelType = $_POST['contactNo'];
-        $percelType = $_POST['userName'];
-        $percelType = $_POST['password'];
+        $empName = $_POST['empName'];
+        $contactNo = $_POST['contactNo'];
+        $userName = $_POST['userName'];
+        $password = $_POST['password'];
 
         addEmployee($empName, $contactNo, $userName, $password);
     }

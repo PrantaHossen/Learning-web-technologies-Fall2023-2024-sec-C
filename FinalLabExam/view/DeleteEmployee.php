@@ -13,13 +13,11 @@ $users = getSpecificUser($EmpID);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
-
-    <title>Edit User Information</title>
+    <title>Delete User Information</title>
 </head>
 
 <body>
-    <form action="../controller/updateEmployeeCheck.php" method="POST">
+    <form action="../controller/deleteEmployeeCheck.php" method="POST">
         <table border="1" cellspacing="0" width="100%" cellpadding="10" height="400px">
             <tr>
                 <td><img src="../asset/clogo.png" alt="" height="30px"><b>All in One Parcel Service</td>
@@ -68,7 +66,7 @@ $users = getSpecificUser($EmpID);
             </tr>
             <tr>
                 <td colspan="9" align="center">
-                    <input type="submit" name="edit_btn" value="UPDATE DATA">
+                    <input type="submit" name="edit_btn" value="Delete EMPLOYEE">
                 </td>
             </tr>
         </table>
